@@ -1,0 +1,35 @@
+<h1>Binary Search Tree Projesi</h1>
+
+<h2> 1 </h2>
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+<hr>
+İlgili sayı dizisinin sırayla geldiğini varsayalım. <br>
+Dolayısıyla root : 7 <br>
+- 5 değerini algoritma 7 değerinden küçük olduğu için soluna yerleştirir. Dolayısıyla 7'nin solunda 5 vardır.
+- 1 değerini algoritma 5'ten küçük olduğu için 5'in soluna yerleştirir. Dolayısıyla 5'in solunda 1 vardır.
+- 8 değerini algoritma 7'nin sağına yerleştirir. Dolayısıyla 7'nin sağında 8 vardır.
+- 3 değerini algoritma 1'in sağına yerleştirir. Dolayısıyla 1'in sağında 3 vardır.
+- 6 değerini algoritma 5'in sağına yerleştirir. Dolayısıyla 5'in sağında 6 vardır.
+- 0 değerini algoritma 1'in soluna yerleştirir. Dolayısıyla 1'in solunda 0 vardır.
+- 9 değerini algoritma 8'in sağına yerleştirir. Dolayısıyla 8'in sağında 9 vardır.
+- 4 değerini algoritma 3'ün sağına yerleştirir. Dolayısıyla 3'ün sağında 4 vardır.
+- Son olarak 2 değerini algoritma 3'ün soluna yerleştirir. Dolayısıyla 3'ün solunda 2 vardır.
+
+Algoritmanın çalışmasının tamamlanmasının ardından binary tree aşağıdaki gibi görünür.
+
+           7
+         /    \
+       5         8
+     /    \          \
+   1       6          9
+  /   \
+0     3
+     /   \
+   2      4
+
+<hr>
+<h2>  Big-o gösterimi </h2>
+- Average Case : O(logn)
+- Worst Case : O(n)
+- Insertion : O(logn)
